@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec /sbin/setuser turtle /turtlecoin/TurtleCoin-linux/TurtleCoind --data-dir /data  >>/var/log/turtlecoind.log 2>&1
